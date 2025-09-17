@@ -1,4 +1,205 @@
 <!doctype html>
-<title>It works</title>
-<h1 style="color:white;background:black;padding:20px">Hello from GitHub Pages</h1>
-<p style="color:white;background:black;padding:20px">If you can see this, Pages is serving correctly.</p>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>⭐ Star beeai-framework</title>
+  <meta name="description" content="One-tap way to star i-am-bee/beeai-framework on GitHub." />
+  <style>
+    /* ===== Neutral-only, robust CSS (no variables) ===== */
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      background: #000;            /* black */
+      color: #fff;                 /* white */
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .wrap {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 860px;
+      background: #0a0a0a;                /* near-black panel */
+      border: 1px solid #1f2937;          /* grey border */
+      border-radius: 18px;
+      padding: 28px;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 8px;
+    }
+
+    .bee {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+      background: #111;                   /* neutral */
+      color: #fff;
+      border: 1px solid #1f2937;
+      font-weight: 900;
+      font-size: 20px;
+      line-height: 1;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(22px, 4.5vw, 34px);
+      line-height: 1.12;
+      letter-spacing: .2px;
+      color: #fff;
+    }
+
+    code { color: #fff; background: transparent; }
+
+    .lede {
+      margin: .5rem 0 1.1rem;
+      color: #9ca3af;                     /* grey secondary */
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      align-items: center;
+      margin: 18px 0 8px;
+    }
+
+    /* Primary yellow CTA — only colored element */
+    .cta-star {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 18px;
+      border-radius: 14px;
+      font-weight: 800;
+      text-decoration: none;
+      background: #f7b500;                /* yellow */
+      color: #111;                         /* dark text for contrast */
+      border: 1px solid #c69200;
+      box-shadow: 0 10px 22px rgba(247,181,0,.25);
+      transition: transform .05s ease, box-shadow .15s ease, filter .2s ease;
+    }
+    .cta-star:hover { filter: brightness(1.03); box-shadow: 0 12px 26px rgba(247,181,0,.35); }
+    .cta-star:active { transform: translateY(1px); }
+    .cta-star svg { width: 18px; height: 18px; }
+
+    /* Neutral login CTA */
+    .cta-login {
+      display: inline-block;
+      padding: 12px 16px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 700;
+      background: #0f0f0f;
+      color: #fff;
+      border: 1px solid #1f2937;
+      transition: background .15s ease, transform .05s ease;
+    }
+    .cta-login:hover { background: #161616; }
+    .cta-login:active { transform: translateY(1px); }
+
+    /* GitHub star iframe */
+    iframe {
+      border: 0;
+      overflow: hidden;
+      width: 170px;
+      height: 30px;
+      background: transparent;
+    }
+
+    .panel {
+      background: #0a0a0a;
+      border: 1px solid #1f2937;
+      border-radius: 14px;
+      padding: 16px;
+      margin-top: 12px;
+    }
+
+    .subtle { color: #9ca3af; font-size: 14px; }
+
+    .divider {
+      height: 1px;
+      background: #111;
+      border-top: 1px solid #1f2937;
+      margin: 18px 0;
+    }
+
+    .footer {
+      margin-top: 10px;
+      font-size: 12px;
+      color: #9ca3af;
+    }
+
+    /* Accessible focus */
+    .cta-star:focus-visible, .cta-login:focus-visible, iframe:focus-visible {
+      outline: 2px solid #e5e7eb;
+      outline-offset: 3px;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 420px) { iframe { width: 150px; } }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card" role="region" aria-labelledby="title">
+      <header>
+        <div class="bee" aria-hidden="true">🐝</div>
+        <div>
+          <h1 id="title">Star <code>i-am-bee/beeai-framework</code></h1>
+          <p class="lede">If you find BeeAI useful, a star helps others discover it.</p>
+        </div>
+      </header>
+
+      <div class="row" role="group" aria-label="Star actions">
+        <!-- Yellow star = primary path; opens the repo so users can press GitHub’s ⭐ -->
+        <a class="cta-star"
+           href="https://github.com/i-am-bee/beeai-framework?utm_source=qr&utm_medium=landing&utm_campaign=star"
+           target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M12 2.25l2.75 6.39 6.97.54-5.3 4.55 1.66 6.77L12 16.9 5.92 20.5l1.66-6.77-5.3-4.55 6.97-.54L12 2.25z"/>
+          </svg>
+          Star on GitHub
+        </a>
+
+        <!-- Optional GitHub star iframe (neutral container) -->
+        <iframe
+          title="GitHub Star"
+          src="https://ghbtns.com/github-btn.html?user=i-am-bee&repo=beeai-framework&type=star&count=true&size=large">
+        </iframe>
+      </div>
+
+      <div class="panel">
+        <strong>Signed out?</strong>
+        <div class="subtle">Log in, then you’ll be sent straight back to the repo:</div>
+        <p style="margin:.6rem 0 0;">
+          <a class="cta-login" href="https://github.com/login?return_to=%2Fi-am-bee%2Fbeeai-framework">
+            Sign in → return to repo
+          </a>
+        </p>
+      </div>
+
+      <div class="divider" aria-hidden="true"></div>
+
+      <p class="footer">
+        This page doesn’t auto-star (GitHub requires a signed-in, intentional click). It just makes starring fast and obvious.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
