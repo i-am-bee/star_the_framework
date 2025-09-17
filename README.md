@@ -1,2 +1,3 @@
 # star_the_framework
-Easily star the BeeAI Framework
+Follow along on the BeeAI Journey by Staring the Framework
+https://i-am-bee.github.io/star_the_framework/
